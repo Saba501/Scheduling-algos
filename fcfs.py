@@ -1,4 +1,4 @@
-
+#fcfs
 start_time=0
 total=0
 
@@ -11,5 +11,6 @@ for i in xrange(n):
 	total_w[i].append(int(start_time-a[i][1]))
 	
 
-print 'Process \t Arrival time \t Burst time \t waiting time'
+print 'Process \t Arrival time \t Burst time \t waiting time';
+
 
